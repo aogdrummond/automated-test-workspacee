@@ -1,0 +1,1 @@
+g++ -c tools.cpp -o tools.o && g++ -c test.cpp -o test.o && g++ tools.cpp test.cpp -o my_program && my_program.exe
